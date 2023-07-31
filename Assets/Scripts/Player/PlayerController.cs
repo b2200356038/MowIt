@@ -66,8 +66,8 @@ public class PlayerController : MonoBehaviour, IDataSaver
 
     void Update()
     {
-        GetInputs();
-        //TouchInputs();
+        //GetInputs();
+        TouchInputs();
         RotatePlayer();
     }
 
